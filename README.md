@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Escaneou! 📱🔍
 
-## Getting Started
+Welcome to **Escaneou!** - the simplest QR code generator, where you can easily generate and share QR codes directly from your browser! 🎉
 
-First, run the development server:
+## 🚀 Project Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Escaneou! is a web application that allows users to generate QR codes by simply entering data into a text field. Once you hit the generate button, the app uses an API to create a custom QR code for you! 🤩 You can also download it, share it on social media, or copy the link to the QR code to use it anywhere you like! 🙌
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **React** ⚛️: For building the UI and handling the interactive elements.
+- **Next.js 15** 🌐: For server-side rendering and routing.
+- **TypeScript** ⌨️: Ensuring type safety across the application.
+- **TailwindCSS** 🌈: For styling the app with utility-first CSS.
+- **React Hook Form** 📑: For easy form handling and validation.
+- **React Icons** 💎: For adding sleek icons to enhance user experience.
+- **GoQR API** 📡: A simple and powerful API to generate QR codes.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 💡 How It Works
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Input Your Data**: Type the content you want to encode in a QR code in the input field.
+2. **Generate the QR Code**: Hit the submit button, and the app will generate a QR code using the GoQR API.
+3. **Download and Share**: You can download the QR code image, copy the link, or share it on platforms like Telegram, Facebook, or Twitter.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## ⚡️ Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Simple UI**: Clean and minimalist design.
+- **Fast Generation**: QR codes generated instantly.
+- **Shareability**: Share QR codes via messaging platforms and social media.
+- **Download**: Easily download the generated QR code as an image file.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🎯 How to Run Locally
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/miguelitodev/escaneou.git
+   ```
+
+2. **Install dependencies**:
+
+   ```bash
+   cd escaneou
+   npm install
+   ```
+
+3. **Run the development server**:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and go to `http://localhost:3000` to see the app in action!
+
+---
+
+## 💬 Demo
+
+Currently, there’s no live demo. However, you can clone and test the app locally!
+
+---
+
+## 🌐 Visit My Portfolio
+
+Want to see more of my projects? Check out my personal portfolio: [Miguelito.dev](https://www.miguelito.dev/)
